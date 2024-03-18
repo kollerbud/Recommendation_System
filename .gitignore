@@ -1,8 +1,43 @@
-# Byte-compiled / optimized / DLL files
+notes.txt
+api_keys.py
+save_to_db.py
+Lib/
+*/.vscode/
+Scripts/
+*/Scripts/
+filing_files/
+*/Lib/
+others/
+
+git rm --cached <file>
+yfinance.cache
+share/*
+etc/*
+__pycache__/
+
+*.json
+**/__pycache__/
+__pycache__
+__pycache__/
+app/dcf_portion/__pycache__/
+
 __pycache__/
 *.py[cod]
 *$py.class
 
+# linux virtual environment
+bin/
+lib64
+run_info
+/src/cta_blue/storage/
+
+# custom
+.vscode/
+*.cfg
+
+
+share/
+include/
 # C extensions
 *.so
 
@@ -120,6 +155,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.json
 .env
 .venv
 env/
